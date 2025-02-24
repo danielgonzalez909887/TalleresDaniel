@@ -6,13 +6,13 @@ public class Main {
 
         Libro libro3 = new Libro();
         //Ingresar datos por consola para inicializar objetos
-        Libro libro4 = Libro.crear_libro_desde_consola(scanner);
+        Libro libro4 = Libro.crearLibroDesdeConsola(scanner);
         //CuentaBancaria
         CuentaBancaria cuenta_bancaria1 = new CuentaBancaria();
-        CuentaBancaria cuenta_bancaria2 = CuentaBancaria.crear_cuenta_bancaria_desde_consola(scanner);
+        CuentaBancaria cuenta_bancaria2 = CuentaBancaria.crearCuentaBancariaDesdeConsola(scanner);
         //Estudiante
         Estudiante estudiante2 = new Estudiante();
-        Estudiante estudiante3 = Estudiante.crear_estuduante_desde_consola(scanner);
+        Estudiante estudiante3 = Estudiante.crearEstuduanteDesdeConsola(scanner);
 
         System.out.println("\n\n\n\n--------------");
         libro3.detalleLibro();

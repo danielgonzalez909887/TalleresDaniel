@@ -38,10 +38,9 @@ public class Estudiante {
     }
 
     // Metodo para ingresar datos desde consola
-    public static Estudiante crear_estuduante_desde_consola(Scanner scanner) {
+    public static Estudiante crearEstuduanteDesdeConsola(Scanner scanner) {
         System.out.print("Digite el nombre del estudiante: ");
         String nombre = scanner.nextLine();
-        scanner.nextLine();
         System.out.print("Digite la edad del estudiante: ");
         int edad = scanner.nextInt();
         scanner.nextLine();

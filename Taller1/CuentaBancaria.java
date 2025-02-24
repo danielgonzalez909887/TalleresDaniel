@@ -1,7 +1,6 @@
 //Ejercicio #2:
 
 //Clase CuentaBancaria con sus respectivas propiedades
-
 import java.util.Scanner;
 
 public class CuentaBancaria {
@@ -46,7 +45,7 @@ public class CuentaBancaria {
     }
 
     // Metodo para ingresar datos desde consola
-    public static CuentaBancaria crear_cuenta_bancaria_desde_consola(Scanner scanner) {
+    public static CuentaBancaria crearCuentaBancariaDesdeConsola(Scanner scanner) {
         System.out.print("Digite el numero de cuenta: ");
         int numero_cuenta = scanner.nextInt();
         scanner.nextLine();

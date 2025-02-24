@@ -40,7 +40,7 @@ public class Libro {
     }
 
     // Metodo para ingresar datos desde consola
-    public static Libro crear_libro_desde_consola(Scanner scanner) {
+    public static Libro crearLibroDesdeConsola(Scanner scanner) {
         System.out.print("Digite el titulo del libro: ");
         String titulo = scanner.nextLine();
         System.out.print("Digite el autor del libro: ");
